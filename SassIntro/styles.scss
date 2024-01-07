@@ -1,0 +1,266 @@
+$blk: #34352F;
+$white: rgb(189, 185, 185);
+$blue : #389DE8;
+$green : #15C4A3;
+$purple: #4C6085;
+
+body{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+.outer-box{
+    height: 500px;
+    width: 900px;
+    background:  linear-gradient(to right, #16C2A8, #34A4E3);
+    position: relative;
+    margin: 100px;
+    
+    .inner-box{
+        display: grid;
+        position: relative;
+       grid-template-columns: 180px  180px  180px  180px;
+        height: 350px;
+        width: 720px;
+        background:  linear-gradient(to right, #16C2A8, #34A4E3);
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        position: absolute;
+        margin-top: 75px;
+        margin-left: 80px;
+        #box-1{
+             height: 100px;
+             width: 180px;
+             background-color:$blk;
+             h3{
+                color: $white;
+                text-align: center;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                
+             }
+             p{
+                color: $white;
+                font-size: 13px;
+                margin-top: -15px;
+                margin-left: 20px;
+                
+             }
+            }
+              #box-2{
+                height: 100px;
+                width: 180px;
+                background-color:$blue;
+                h3{
+                    color: $white;
+                    text-align: center;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                
+             }
+
+
+        }
+        #box-3{
+            height: 100px;
+                width: 180px;
+                background-color:$green;
+                h3{
+                    color: $white;
+                    text-align: center;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                
+             }
+        }
+        #box-4{
+            height: 100px;
+            width: 180px;
+            background-color:$blk;
+            h3{
+               color: $white;
+               text-align: center;
+               font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+               
+            }
+
+        
+    }
+    #box-5{
+        height: 250px;
+                width: 180px;
+                background-color:$purple;
+                h3{
+                    color: $white;
+                    text-align: center;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    margin-top: 100px;
+                    
+                 }
+                 p{
+                    color: $white;
+                    font-size: 13px;
+                    margin-top: -15px;
+                    margin-left: 20px;
+                    
+                 }
+    }
+    #box-6{
+        height: 150px;
+        width: 360px;
+        background-color:$blk;
+        h3{
+            color: $white;
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+           
+            
+         }
+         p{
+            color: $white;
+            font-size: 13px;
+            margin-top: -15px;
+            margin-left: 20px;
+            
+         }
+    }
+    #box-7{
+        height: 250px;
+                width: 180px;
+                background-color:$purple;
+                margin-left: 180px;
+                h3{
+                    color: $white;
+                    text-align: center;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                   
+                    
+                 }
+                 p{
+                    color: $white;
+                    font-size: 13px;
+                    margin-top: -15px;
+                    margin-left: 20px;
+                    
+                 }
+    }
+    
+                
+
+
+    }
+}
+}
+
+
+
+.second{
+    display: grid;
+    margin-bottom: 100px;
+    grid-template-columns: 200px 200px 200px 200px;
+    row-gap: 20px;
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+  
+
+ 
+  @media all and  (max-width: 500px){
+      .second {
+          grid-template-columns: 100px ;
+      }
+  }
+    .container-1{
+        height: 150px;
+        width: 200px;
+         background-color: yellow;
+         h3{
+            margin-left: 20px;
+         }
+         p{
+            margin-left: 20px;
+         }
+
+    }
+    .container-2{
+        height: 150px;
+        width: 200px;
+         background-color: blue;
+         h3{
+            margin-left: 20px;
+         }
+         p{
+            margin-left: 20px;
+         }
+
+    }
+    .container-3{
+        height: 150px;
+        width: 200px;
+         background-color: pink;
+         h3{
+            margin-left: 20px;
+         }
+         p{
+            margin-left: 20px;
+         }
+
+    }
+    .container-4{
+        height: 150px;
+        width: 200px;
+         background-color: gray;
+         h3{
+            margin-left: 20px;
+         }
+         p{
+            margin-left: 20px;
+         }
+
+    }
+    .container-5{
+        height: 150px;
+        width: 200px;
+         background-color: yellow;
+         h3{
+            margin-left: 20px;
+         }
+         p{
+            margin-left: 20px;
+         }
+
+    }
+    .container-6{
+        height: 150px;
+        width: 200px;
+         background-color: blue;
+         h3{
+            margin-left: 20px;
+         }
+         p{
+            margin-left: 20px;
+         }
+
+    }
+    .container-7{
+        height: 150px;
+        width: 200px;
+         background-color: pink;
+         h3{
+            margin-left: 20px;
+         }
+         p{
+            margin-left: 20px;
+         }
+
+    }
+    .container-8{
+        height: 150px;
+        width: 200px;
+         background-color: gray;
+         h3{
+            margin-left: 20px;
+         }
+         p{
+            margin-left: 20px;
+         }
+
+    }
+
+}

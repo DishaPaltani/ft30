@@ -1,0 +1,225 @@
+body {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+body .outer-box {
+  height: 500px;
+  width: 900px;
+  background: linear-gradient(to right, #16C2A8, #34A4E3);
+  position: relative;
+  margin: 100px;
+}
+body .outer-box .inner-box {
+  display: grid;
+  position: relative;
+  grid-template-columns: 180px 180px 180px 180px;
+  height: 350px;
+  width: 720px;
+  background: linear-gradient(to right, #16C2A8, #34A4E3);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: absolute;
+  margin-top: 75px;
+  margin-left: 80px;
+}
+body .outer-box .inner-box #box-1 {
+  height: 100px;
+  width: 180px;
+  background-color: #34352F;
+}
+body .outer-box .inner-box #box-1 h3 {
+  color: rgb(189, 185, 185);
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body .outer-box .inner-box #box-1 p {
+  color: rgb(189, 185, 185);
+  font-size: 13px;
+  margin-top: -15px;
+  margin-left: 20px;
+}
+body .outer-box .inner-box #box-2 {
+  height: 100px;
+  width: 180px;
+  background-color: #389DE8;
+}
+body .outer-box .inner-box #box-2 h3 {
+  color: rgb(189, 185, 185);
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body .outer-box .inner-box #box-3 {
+  height: 100px;
+  width: 180px;
+  background-color: #15C4A3;
+}
+body .outer-box .inner-box #box-3 h3 {
+  color: rgb(189, 185, 185);
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body .outer-box .inner-box #box-4 {
+  height: 100px;
+  width: 180px;
+  background-color: #34352F;
+}
+body .outer-box .inner-box #box-4 h3 {
+  color: rgb(189, 185, 185);
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body .outer-box .inner-box #box-5 {
+  height: 250px;
+  width: 180px;
+  background-color: #4C6085;
+}
+body .outer-box .inner-box #box-5 h3 {
+  color: rgb(189, 185, 185);
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 100px;
+}
+body .outer-box .inner-box #box-5 p {
+  color: rgb(189, 185, 185);
+  font-size: 13px;
+  margin-top: -15px;
+  margin-left: 20px;
+}
+body .outer-box .inner-box #box-6 {
+  height: 150px;
+  width: 360px;
+  background-color: #34352F;
+}
+body .outer-box .inner-box #box-6 h3 {
+  color: rgb(189, 185, 185);
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body .outer-box .inner-box #box-6 p {
+  color: rgb(189, 185, 185);
+  font-size: 13px;
+  margin-top: -15px;
+  margin-left: 20px;
+}
+body .outer-box .inner-box #box-7 {
+  height: 250px;
+  width: 180px;
+  background-color: #4C6085;
+  margin-left: 180px;
+}
+body .outer-box .inner-box #box-7 h3 {
+  color: rgb(189, 185, 185);
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body .outer-box .inner-box #box-7 p {
+  color: rgb(189, 185, 185);
+  font-size: 13px;
+  margin-top: -15px;
+  margin-left: 20px;
+}
+
+.second {
+  display: grid;
+  margin-bottom: 100px;
+  grid-template-columns: 200px 200px 200px 200px;
+  row-gap: 20px;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+@media all and (max-width: 500px) {
+  .second  {
+    grid-template-columns: 100px;
+  }
+}
+.second .container-1 {
+  height: 150px;
+  width: 200px;
+  background-color: yellow;
+}
+.second .container-1 h3 {
+  margin-left: 20px;
+}
+.second .container-1 p {
+  margin-left: 20px;
+}
+.second .container-2 {
+  height: 150px;
+  width: 200px;
+  background-color: blue;
+}
+.second .container-2 h3 {
+  margin-left: 20px;
+}
+.second .container-2 p {
+  margin-left: 20px;
+}
+.second .container-3 {
+  height: 150px;
+  width: 200px;
+  background-color: pink;
+}
+.second .container-3 h3 {
+  margin-left: 20px;
+}
+.second .container-3 p {
+  margin-left: 20px;
+}
+.second .container-4 {
+  height: 150px;
+  width: 200px;
+  background-color: gray;
+}
+.second .container-4 h3 {
+  margin-left: 20px;
+}
+.second .container-4 p {
+  margin-left: 20px;
+}
+.second .container-5 {
+  height: 150px;
+  width: 200px;
+  background-color: yellow;
+}
+.second .container-5 h3 {
+  margin-left: 20px;
+}
+.second .container-5 p {
+  margin-left: 20px;
+}
+.second .container-6 {
+  height: 150px;
+  width: 200px;
+  background-color: blue;
+}
+.second .container-6 h3 {
+  margin-left: 20px;
+}
+.second .container-6 p {
+  margin-left: 20px;
+}
+.second .container-7 {
+  height: 150px;
+  width: 200px;
+  background-color: pink;
+}
+.second .container-7 h3 {
+  margin-left: 20px;
+}
+.second .container-7 p {
+  margin-left: 20px;
+}
+.second .container-8 {
+  height: 150px;
+  width: 200px;
+  background-color: gray;
+}
+.second .container-8 h3 {
+  margin-left: 20px;
+}
+.second .container-8 p {
+  margin-left: 20px;
+}/*# sourceMappingURL=styles.css.map */
