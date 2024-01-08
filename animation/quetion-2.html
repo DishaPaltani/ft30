@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        @keyframes slidein{
+            0%{
+                transform: translateX(100%);
+                color: black;
+            }
+            50%{
+                color: gray;
+            }
+            100%{
+color: white;
+            }
+        }
+body{
+    background-color: #FDC53C;
+   display: flex;
+}
+h3{
+    margin-top: 300px;
+    animation: 3s ease-in 1s infinite reverse both running slidein;
+}
+.box{
+    height: 50px;
+    width: 50px;
+    background-color: #B99A5B;
+    border-radius: 50%;
+    justify-content: left;
+    align-items: center;
+    
+}
+.icon-box{
+    display: flex;
+    margin-left: 500px;
+}
+.fa-solid{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.box :nth-child(1) {transform: rotate(0deg);}
+.box :nth-child(2) {transform: rotate(45deg);}
+.box :nth-child(3) {transform: rotate(90deg);}
+.box :nth-child(4) {transform: rotate(135deg);}
+.box :nth-child(5) {transform: rotate(180eg);}
+
+.box :nth-child(6) {transform: rotate(225deg);}
+.box :nth-child(7) {transform: rotate(270deg);}
+.box :nth-child(8) {transform: rotate(315deg);}
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+        
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.icon-box .box{
+    animation: rotate 4s linear infinite;
+}
+    </style>
+</head>
+<body>
+    <div class="center">
+        <h3>Pay bills instanty</h3>
+    </div>
+    <div class="icon-box">
+         <div class="box">
+            <i class="fa-brands fa-youtube"></i>
+         </div>
+         <div class="box">
+            <i class="fa-brands fa-facebook"></i>
+         </div>
+         <div class="box">
+            <i class="fa-solid fa-house"></i>
+         </div>
+         <div class="box">
+            <i class="fa-solid fa-phone"></i>
+         </div>
+         <div class="box">
+            <i class="fa-solid fa-screencast"></i>
+         </div>
+         <div class="box">
+            <i class="fa-brands fa-twitter"></i>
+         </div>
+         <div class="box">
+            <i class="fa-solid fa-lightbulb"></i>
+         </div>
+         <div class="box">
+            <i class="fa-solid fa-camera"></i>
+         </div>
+
+
+    </div>
+</body>
+</html>
